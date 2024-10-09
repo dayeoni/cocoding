@@ -1,0 +1,49 @@
+.img-wrapper {
+    border-radius: 100%;
+    overflow: hidden;
+    border: var(--border-dark);
+    aspect-ratio: 1/1;
+  }
+  
+  .img-wrapper img {
+    object-fit: contain;
+  }
+  
+  main h2 {
+    font-size: var(--font-xl);
+    font-weight: var(--font-bold);
+    text-transform: capitalize;
+  }
+  
+  table {
+    border-collapse: collapse;
+    padding: 1rem;
+    border: var(--border-light);
+    border-radius: 0.5rem;
+    display: block;
+    overflow: hidden;
+    font-size: var(--font-sm);
+  }
+  
+  tr {
+    border-bottom: var(--border-light);
+  }
+  
+  tr:last-child {
+    border-bottom: none;
+  }
+  
+  td {
+    padding: 0.8rem;
+  }
+  
+  td:first-child {
+    font-weight: var(--font-bold);
+    text-transform: capitalize;
+  }
+  
+  td:last-child {
+    text-align: right;
+    color: var(--text-color-light);
+  }
+  
